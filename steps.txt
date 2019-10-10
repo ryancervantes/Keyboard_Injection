@@ -1,0 +1,11 @@
+# Put the Program you want to Open Below
+PROGRAM = notepad
+
+#########
+# STEPS #
+#########
+Hello
+WAIT 1
+World!
+
+
