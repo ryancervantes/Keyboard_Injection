@@ -1,11 +1,14 @@
-# Put the Program you want to Open Below
-PROGRAM = notepad
+# [CONFIG]
+OS = windows
+PROGRAM = NONE
 
-#########
-# STEPS #
-#########
-Hello
-WAIT 1
-World!
+# [STEPS]
+# MOUSE 710 420
+MOUSE -1000 -1000
+KEYS <CTRL> <ALT> <DEL>
+WAIT .75
+MOUSE 325 130
+CLICK LEFT
+
 
 
